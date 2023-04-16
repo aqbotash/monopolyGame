@@ -12,4 +12,4 @@ Object Oriented Programming
 <!-- Further development -->
 This program must increase the money of property owner, if someone rents his or her place.
 <!-- Inconsistencies -->
-There are some inconsistencies with <window.h> ans sleep() function. If your OS is linux change it to <unistd.h> and Sleep()
+There are some inconsistencies with <window.h> ans sleep() function. If your OS is linux change it to <unistd.h> and Sleep().
