@@ -7,8 +7,6 @@ Income Tax -> 10% of all money that player owns.
 Chances -> tasks where player's money can increase or decrease according to the task which is written in chance card. In this game, there is only 5 cards.
 Finally, when there is only one player left, program will end game and announce the winner.
 <!-- Monopoly game logic written in c++ -->
-Fisrt players enter the number of players, and program creates players according to the given number and game will start immediately. Die will be rolled for every players one by one.
-There are only 5 chance cards.
 <!-- C++ knowledge -->
 Object Oriented Programming
 <!-- Further development -->
