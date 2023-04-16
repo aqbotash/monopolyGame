@@ -57,7 +57,7 @@ int chance5(){
 //Creating vector of methods of Chances
 vector<int (*)()> chanceMethods = {&chance1, &chance2, &chance3, &chance4, &chance5};
 
-vector<string> spaces = {"Go", "Strana Tumana", "Hidden cloud village", "Strana Ognya", "Income Tax", "Konoha", "Strana Ovoshei","Chance","Strana dozhdya", "Strana Peska", "Visit Jail", "Ubezhishe Oratimaru", "Strana Vetra", "Strana Vody","Strana Zemli", "Strana Zvuka", "Strana Molnii", "Chance","Strana Zhelezy","Strana Neba" "Free Parking", "Strana skrytogo kamnya", "Chance", "Strana skrytoi luny","Деревня скрытого водопада", "Деревня скрытой дымки", "Country of Snow", "Country of Iron", "Derevnya skrytyh dolin", "1", "Go to jail","2", "3","Community chance", "4","5", "Chance", "6","7","8"};
+vector<string> spaces = {"Go", "Strana Tumana", "Hidden cloud village", "Strana Ognya", "Income Tax", "Konoha", "Strana Ovoshei","Chance","Strana dozhdya", "Strana Peska", "Goryachie Istochniki", "Ubezhishe Oratimaru", "Strana Vetra", "Strana Vody","Strana Zemli", "Strana Zvuka", "Strana Molnii", "Chance","Strana Zhelezy","Strana Neba" "Free Parking", "Strana skrytogo kamnya", "Chance", "Strana skrytoi luny","Derevnya Skrytogo Vodopada", "Derevnya Skrytoi Dymki", "Country of Snow", "Country of Iron", "Derevnya skrytyh dolin", "1", "Strana Moroza","2", "3","Community chance", "4","5", "Chance", "6","7","8"};
 
 vector<string> owners ={"X","no", "no","no","X","no","no", "X", "no", "no", "X","no","no","no","no","no","no","X","no","no","free","no","X","no","no","no","no","no","no","no","X","no","no","X", "no","no","X", "no","no","no"};
 
@@ -153,7 +153,7 @@ int main() {
     //resetting index
     if(index==numOfPlayers) index=0;
 
-    if(players.size()==0){
+    if(players.size()==1){
       game = false;
       cout<<"Game over! The winner is "<<players[0].Name;
       
